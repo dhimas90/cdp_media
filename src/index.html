@@ -30,6 +30,46 @@
       position: relative;
       top: 3px;
     }
+    .whatsapp::before {
+      background: url(/src/img/whatsapp-color-svgrepo-com.svg) 0 0 no-repeat;
+      background-size: 20px;
+      content: '';
+      padding: 0 0 0 28px;
+      position: relative;
+      top: 3px;
+    }
+    .instagram::before {
+      background: url(/src/img/instagram-1-svgrepo-com.svg) 0 0 no-repeat;
+      background-size: 20px;
+      content: '';
+      padding: 0 0 0 28px;
+      position: relative;
+      top: 3px;
+    }
+    .twitter::before {
+      background: url(/src/img/twitter-color-svgrepo-com.svg) 0 0 no-repeat;
+      background-size: 20px;
+      content: '';
+      padding: 0 0 0 28px;
+      position: relative;
+      top: 3px;
+    }
+    .linkedin::before {
+      background: url(/src/img/linkedin-svgrepo-com.svg) 0 0 no-repeat;
+      background-size: 20px;
+      content: '';
+      padding: 0 0 0 28px;
+      position: relative;
+      top: 3px;
+    }
+    .facebook::before {
+      background: url(/src/img/facebook-color-svgrepo-com.svg) 0 0 no-repeat;
+      background-size: 20px;
+      content: '';
+      padding: 0 0 0 28px;
+      position: relative;
+      top: 3px;
+    }
     
   </style>
 </head>
@@ -50,13 +90,13 @@
             <li><a href="#portofolio">Portfolio</a></li>
           </ul>
         </div>
-        <div class="hidden lg:block" id="phone"><i class="fa fa-whatsapp" aria-hidden="true"></i>+62 8900878 7777</div>
+        <div class="hidden lg:block" id="phone"><a href=""><span class="whatsapp"></span></i>+62 8900878 7777</a></div>
         <div class="lg:hidden" id="hamburger">Hamburger</div>
       </nav>
     </header>
   
     <main>
-      <section id="hero" class="p-7">
+      <section id="hero" class="p-7 container mx-auto">
       <div class="h-[100px] w-[100px] 
       block lg:h-[400px] lg:w-[400px] rounded-full absolute lg:-ml-40 blur-3xl opacity-100 -z-50 bg-blue-200 "></div>
       <div class="h-28 w-28 ml-32 mt-28
@@ -223,9 +263,33 @@
         </section>
         <!-- end of portofolio -->
         <!-- footer start -->
-        <footer id="footer" class="bg-slate-100 z-50 mt-32 object-fill">
-          <div class="wrapper h-56 w-full p-10 flex flex-row justify-between">
-              <p>alamat</p>
+        <footer id="footer" class="bg-slate-100 z-50 mt-32">
+          <div class="wrapper h-full w-full p-10 flex flex-col gap-5 md:flex-row justify-between">
+            <!-- media social -->
+              <div class="container-social-media">
+                <span class="whatsapp"></span>
+                <span class="instagram"></span>
+                <span class="linkedin"></span>
+                <span class="twitter"></span>
+                <span class="facebook"></span>
+              </div>
+
+            <!-- address -->
+            <div class="address-footer">
+              <p>Location</p>
+              <p>Margosari, Limbangan, Central Java, Indonesia</p>
+              <p>cdpmedia@cdpisp.com</p>
+              <p>+62 8900878 7777</p>
+              
+            </div>
+
+            <!-- services hastag -->
+            <ul>
+              <li><a href="">Internet Service Provider</a></li>
+              <li><a href="">Networking Maintenance</a></li>
+              <li><a href="">Software Developer</a></li>
+            </ul>
+            
           </div>
         </footer>
         <!-- footer end -->
