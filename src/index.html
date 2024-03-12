@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../dist/output.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+  <style>
+    .check {
+      border: solid red 1px;
+    }
+    .check-circle::before {
+      background: url(/src/img/🦆\ icon\ _Check\ Circle_.svg) 0 0 no-repeat;
+      background-size: 13px;
+      content: '';
+      padding: 0 0 0 28px;
+      position: relative;
+      top: 3px;
+    }
+    .times-circle::before {
+      background: url(/src/img/🦆\ icon\ _Times\ Circle_.svg) 0 0 no-repeat;
+      background-size: 13px;
+      content: '';
+      padding: 0 0 0 28px;
+      position: relative;
+      top: 3px;
+    }
+    
+  </style>
+</head>
+<body>
+  <div id="wrapper" class="mx-auto">
+    <header class= "container w-full">
+      <nav class="p-7 px-3 flex justify-between
+      lg:pt-10 lg:px-16 lg:flex lg:justify-between">
+        <div class="
+        font-bold text-2xl
+        md:font-bold md:text-xl" id="logo">CDP</div>
+        <div class="" id="menubar">
+          <ul class="hidden lg:flex lg:flex-wrap lg:flex-row lg:gap-3">
+            <li><a href="#about">About</a></li>
+            <li><a href="#profile">Profile</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portofolio">Portfolio</a></li>
+          </ul>
+        </div>
+        <div class="hidden lg:block" id="phone"><i class="fa fa-whatsapp" aria-hidden="true"></i>+62 8900878 7777</div>
+        <div class="lg:hidden" id="hamburger">Hamburger</div>
+      </nav>
+    </header>
+  
+    <main>
+      <section id="hero" class="p-7">
+      <div class="h-[100px] w-[100px] 
+      block lg:h-[400px] lg:w-[400px] rounded-full absolute lg:-ml-40 blur-3xl opacity-100 -z-50 bg-blue-200 "></div>
+      <div class="h-28 w-28 ml-32 mt-28
+      block lg:h-[200px] lg:w-[200px] rounded-full absolute lg:ml-96 blur-3xl opacity-100 -z-10 bg-purple-400 "></div>
+      <div class="h-[300px] w-[300px] ml-[10rem]
+      block lg:h-[600px] lg:w-[600px] rounded-full absolute lg:ml-[30rem] blur-3xl opacity-100 -z-10 bg-green-200"></div>
+        <div class="title-hero text-2xl font-bold md:text-4xl md:pl-16 mt-24">
+          <h3>INTERNET PLANS</h3>
+          <h3>FOR EVERYONE</h3>
+          <h3>AND EVERY BUSSINESS</h3>
+        </div>
+        <div class="pr-4 pt-4
+        content-hero md:w-[500px] md:text-sm md:pl-16">
+          <p>We offering internet connection speed up to 100mbps
+            with or without dedicated services, or your bussiness
+            can make a easiest way to choose which speed that you 
+            want according your bussiness needs.</p>
+        </div>
+        <div class="flex flex-row gap-2 mt-3
+        price-hero md:text-center md:flex md:flex-row md:pl-16 md:gap-2">
+          <p class="font-semibold">from</p>
+          <p class="text-5xl md:text-5xl font-semibold">400.000/</p>
+          <div class="money text-[12px] md:flex md:flex-col p-1 gap-1 items-center font-semibold">
+            <p>Rupiah's</p>
+            <p>Month</p>
+          </div>
+        </div>    
+        </section>
+      <!-- services -->
+        <section id="services" class="mt-20">
+          <!-- wrapper -->
+          <div class="wrapper flex flex-col md:flex-row gap-4 justify-center items-center">
+            <!-- box wrapper -->
+            <div class="services-box p-5 flex flex-col gap-4 lg:ml-56">
+              <!-- box -->
+              <div class="card p-3 w-40 h-40 rounded-lg bg-transparent border hover:border-purple-400 transition-colors shadow flex flex-col items-center gap-2">
+                <!-- photos  -->
+                <div class="frame-img-services h-24 w-24 rounded-md flex justify-center items-center">
+                  <img class="relative block" src="img/🦆 icon _Alternate Tachometer_.svg" alt="none">
+                </div>
+                <!-- text -->
+                <div class="frame-text-services">
+                  <p class="text-xs">Internet access at a speed according to your needs.</p>
+                </div>
+              </div>
+              <!-- box -->
+              <div class="card p-3 w-40 h-40 rounded-lg bg-transparent border hover:border-green-400 transition-colors shadow flex flex-col items-center gap-2">
+                <!-- photos  -->
+                <div class="frame-img-services h-24 w-24 rounded-md flex justify-center items-center">
+                  <img class="relative block" src="img/🦆 icon _Alternate Shield_.svg" alt="none">
+                </div>
+                <!-- text -->
+                <div class="frame-text-services">
+                  <p class="text-xs">Internet access security.</p>
+                </div>
+              </div>
+              <!-- box -->
+              <div class="card p-3 w-40 h-40 rounded-lg bg-transparent border hover:border-blue-400 transition-colors shadow flex flex-col items-center gap-2">
+                <!-- photos  -->
+                <div class="frame-img-services  h-24 w-24 rounded-md flex justify-center items-center">
+                  <img class="relative block" src="img/speed.svg" alt="none">
+                </div>
+                <!-- text -->
+                <div class="frame-text-services">
+                  <p class="text-xs">24/7 customer service for damage and disruption consultations.</p>
+                </div>
+              </div>
+            </div>
+            <div class="services-content p-9 md:max-h-56 md:max-w-96 ">
+              <p>We operate in the Internet Service Provider sector, starting with distributing bandwidth for business and expanding to bandwidth for metro level coverage. This technological innovation enables communication networks via the internet in an intercity scope. Collaborating with the world's leading internet service providers to focus services on local services. We will always try to improve our services to be able to provide solutions to the scope of your problems in the field of internet coverage.</p>
+            </div>
+          </div>
+        </section>
+  
+        <!-- price and plan -->
+        <section id="price-and-plan" class="p-11 mt-14">
+          <div class="title">
+            <h3 class="text-center text-3xl mb-4">Price and Plan</h3>
+          </div>
+          <!-- content price and plan -->
+          <div class="container-price flex items-center flex-col md:flex-row md:justify-center gap-6"> <!-- flex -->
+            <!-- content price -->
+            <div class="content-price p-5 h-full w-64">
+              <div class="feature p-4">
+                <h3 class="text-xl text-center font-thin">Starter</h3>
+              </div>
+              <div class="prices flex flex-row gap-2 justify-center mx-4">
+                <p class="text-sm">Rupiah's</p>
+                <p class="text-4xl">400.000</p>
+              </div>
+              <div class="services-price flex flex-col gap-2 text-xs mt-8 leading-5">
+                <p><span class="check-circle"></span>Speed up to 10 Mbps</p>
+                <p><span class="times-circle"></span>Static IP</p>
+                <p><span class="check-circle"></span>24/7 Customer Service</p>
+                <p><span class="times-circle"></span>1:1 Bandwith upload and download</p>
+              </div>
+              <div class="button-check mt-7 text-center">
+                <button type="button" class="bg-transparent hover:bg-blue-200 text-gray-800 font-semibold py-2 px-4 border border-green-400 rounded-3xl shadow">Check</button>
+              </div>
+            </div>
+            <!-- end content price -->
+            
+            <!-- content price -->
+            <div class="content-price p-5 h-full w-64">
+              <div class="feature p-4">
+                <h3 class="text-xl text-center font-thin">Dedicated</h3>
+              </div>
+              <div class="prices flex flex-row gap-2 justify-center mx-4">
+                <p class="text-sm">Rupiah's</p>
+                <p class="text-4xl">1.200.000</p>
+              </div>
+              <div class="services-price flex flex-col gap-2 text-xs mt-8 leading-5">
+                <p><span class="check-circle"></span>Speed up to 10 Mbps</p>
+                <p><span class="check-circle"></span>Static IP</p>
+                <p><span class="check-circle"></span>24/7 Customer Service</p>
+                <p><span class="times-circle"></span>1:1 Bandwith upload and download</p>
+              </div>
+              <div class="button-check mt-7 text-center">
+                <button type="button" class="bg-transparent hover:bg-blue-200 text-gray-800 font-semibold py-2 px-4 border border-green-400 rounded-3xl shadow">Check</button>
+              </div>
+            </div>
+            <!-- end content price -->
+            
+            <!-- content price -->
+            <div class="content-price p-5 h-full w-64">
+              <div class="feature p-4">
+                <h3 class="text-xl text-center font-thin">Enterprise</h3>
+              </div>
+              <div class="prices flex flex-row gap-2 justify-center mx-4">
+                <p class="text-sm">Rupiah's</p>
+                <p class="text-4xl">2.000.000</p>
+              </div>
+              <div class="services-price flex flex-col gap-2 text-xs mt-8 leading-5">
+                <p><span class="check-circle"></span>Speed up to 10 Mbps</p>
+                <p><span class="check-circle"></span>Static IP</p>
+                <p><span class="check-circle"></span>24/7 Customer Service</p>
+                <p><span class="check-circle"></span>1:1 Bandwith upload and download</p>
+              </div>
+              <div class="button-check mt-7 text-center">
+                <button type="button" class="bg-transparent hover:bg-blue-200 text-gray-800 font-semibold py-2 px-4 border border-green-400 rounded-3xl shadow">Check</button>
+              </div>
+            </div>
+            <!-- end content price -->
+          </div>
+        </section>
+        <!-- portfolio -->
+        <section id="portfolio" class="container mt-16 flex flex-col items-center gap-12">
+          <div class="title-portfolio text-xl font-bold">
+            Who has to be our clients
+          </div>
+          <div class="wrapper-portfolio grid md:grid-cols-3 lg:grid-cols-4 gap-3 h-full w-[435px] place-content-center">
+            <img class="hover:opacity-100 opacity-75 transition-opacity rounded-md h-[100px] w-[100px]" src="https://source.unsplash.com/random/?logos&1" alt="">
+            <img class="hover:opacity-100 opacity-75 transition-opacity rounded-md h-[100px] w-[100px]" src="https://source.unsplash.com/random/?logos&2" alt="">
+            <img class="hover:opacity-100 opacity-75 transition-opacity rounded-md h-[100px] w-[100px]" src="https://source.unsplash.com/random/?logos&3" alt="">
+            <img class="hover:opacity-100 opacity-75 transition-opacity rounded-md h-[100px] w-[100px]" src="https://source.unsplash.com/random/?logos&4" alt="">
+            <img class="hover:opacity-100 opacity-75 transition-opacity rounded-md h-[100px] w-[100px]" src="https://source.unsplash.com/random/?logos&5" alt="">
+            <img class="hover:opacity-100 opacity-75 transition-opacity rounded-md h-[100px] w-[100px]" src="https://source.unsplash.com/random/?logos&6" alt="">
+            <img class="hover:opacity-100 opacity-75 transition-opacity rounded-md h-[100px] w-[100px]" src="https://source.unsplash.com/random/?logos&7" alt="">
+            <img class="hover:opacity-100 opacity-75 transition-opacity rounded-md h-[100px] w-[100px]" src="https://source.unsplash.com/random/?logos&8" alt="">
+            <img class="hover:opacity-100 opacity-75 transition-opacity rounded-md h-[100px] w-[100px]" src="https://source.unsplash.com/random/?logos&9" alt="">
+            <img class="hover:opacity-100 opacity-75 transition-opacity rounded-md h-[100px] w-[100px]" src="https://source.unsplash.com/random/?logos&10" alt="">
+            <img class="hover:opacity-100 opacity-75 transition-opacity rounded-md h-[100px] w-[100px]" src="https://source.unsplash.com/random/?logos&11" alt="">
+          </div>
+        </section>
+        <!-- end of portofolio -->
+        <!-- footer start -->
+        <footer id="footer" class="bg-slate-100 z-50 mt-32 object-fill">
+          <div class="wrapper h-56 w-full p-10 flex flex-row justify-between">
+              <p>alamat</p>
+          </div>
+        </footer>
+        <!-- footer end -->
+      </main>
+  </div>
+</body>
+</html>
