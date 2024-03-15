@@ -9,6 +9,12 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <!-- local -->
+  <link rel="stylesheet" href="/node_modules/aos/dist/aos.js">
+  <script src="/node_modules/aos/dist/aos.css"></script>
+  <script>
+    AOS.init();
+  </script>
 
   <style>
     .check {
@@ -82,7 +88,7 @@
   </style>
 </head>
 <body>
-  <div id="wrapper" class="mx-auto">
+  <div id="wrapper" class="mx-auto" data-aos="fade-down">
     <header class= "container w-full">
       <nav class="p-7 px-3 flex justify-between
       lg:pt-10 lg:px-16 lg:flex lg:justify-between">
@@ -134,13 +140,13 @@
         </div>    
         </section>
       <!-- services -->
-        <section id="services" class="mt-20">
+        <section id="services" class="mt-20" data-aos="fade-up">
           <!-- wrapper -->
           <div class="wrapper flex flex-col md:flex-row gap-4 justify-center items-center">
             <!-- box wrapper -->
             <div class="services-box p-5 flex flex-col gap-4 lg:ml-56">
               <!-- box -->
-              <div class="card p-3 w-40 h-40 rounded-lg bg-transparent border hover:border-purple-400 transition-colors shadow flex flex-col items-center gap-2">
+              <div class="card p-3 w-40 h-40 rounded-lg bg-transparent border hover:border-purple-400 shadow flex flex-col items-center gap-2">
                 <!-- photos  -->
                 <div class="frame-img-services h-24 w-24 rounded-md flex justify-center items-center">
                   <img class="relative block" src="img/🦆 icon _Alternate Tachometer_.svg" alt="none">
@@ -151,7 +157,7 @@
                 </div>
               </div>
               <!-- box -->
-              <div class="card p-3 w-40 h-40 rounded-lg bg-transparent border hover:border-green-400 transition-colors shadow flex flex-col items-center gap-2">
+              <div class="card p-3 w-40 h-40 rounded-lg bg-transparent border hover:border-green-400 shadow flex flex-col items-center gap-2">
                 <!-- photos  -->
                 <div class="frame-img-services h-24 w-24 rounded-md flex justify-center items-center">
                   <img class="relative block" src="img/🦆 icon _Alternate Shield_.svg" alt="none">
@@ -162,7 +168,7 @@
                 </div>
               </div>
               <!-- box -->
-              <div class="card p-3 w-40 h-40 rounded-lg bg-transparent border hover:border-blue-400 transition-colors shadow flex flex-col items-center gap-2">
+              <div class="card p-3 w-40 h-40 rounded-lg bg-transparent border hover:border-blue-400 shadow flex flex-col items-center gap-2">
                 <!-- photos  -->
                 <div class="frame-img-services  h-24 w-24 rounded-md flex justify-center items-center">
                   <img class="relative block" src="img/speed.svg" alt="none">
@@ -179,6 +185,95 @@
           </div>
         </section>
   
+        
+        <!-- our services -->
+        <section id="product-services" class=" container mx-auto text-center mt-16">
+          <!-- title -->
+          <div class="product-service-title text-2xl font-semibold text-center">Product and Services</div>
+          <!-- content -->
+          <div class="product-and-services-content my-8 ">
+            <p>We categorize the products and services that we offer you into several options that you can adjust to your needs and make your work more effective and efficient.</p>
+          </div>
+          <!-- services box -->
+          <div id="box-services" class="w-8/12 mx-auto grid lg:grid-cols-3 gap-3 mt-4">
+            <!-- card -->
+            <div class="card p-5 h-36 w-60 rounded-2xl flex flex-col justify-center items-center gap-4 shadow-lg bg-purple-20 hover:bg-purple-300 hover:border hover:border-blue-500 hover:shadow-none  transition-shadow  ">
+              <div class="flex flex-row justify-center items-center gap-2">
+                <div class="rounded-full whatsapp"></div>
+                <div class="flex flex-col gap-1">
+                  <div class="title-card-services text-lg font-bold">FTTX Broadband</div>
+                  <div class="content-card-services text-sm">Access network to customers with Fiber Optic with 1:1 bandwidth</div>
+                </div>
+              </div>
+            </div>
+            <!-- card -->
+            <div class="card p-5 h-36 w-60 rounded-2xl flex flex-col justify-center items-center gap-4 shadow-lg bg-purple-20 hover:bg-purple-300 hover:border hover:border-blue-500 hover:shadow-none  transition-shadow  ">
+              <div class="flex flex-row justify-center items-center gap-2">
+                <div class="rounded-full whatsapp"></div>
+                <div class="flex flex-col gap-1">
+                  <div class="title-card-services text-lg font-bold">FTTX Dedication</div>
+                  <div class="content-card-services text-sm">Connection through fiber optics</div>
+                </div>
+              </div>
+            </div>
+            <!-- card -->
+            <div class="card p-5 h-36 w-60 rounded-2xl flex flex-col justify-center items-center gap-4 shadow-lg bg-purple-20 hover:bg-purple-300 hover:border hover:border-blue-500 hover:shadow-none  transition-shadow  ">
+              <div class="flex flex-row justify-center items-center gap-2">
+                <div class="rounded-full whatsapp"></div>
+                <div class="flex flex-col gap-1">
+                  <div class="title-card-services text-lg font-bold">Intercity</div>
+                  <div class="content-card-services text-sm">A network that covers cities within a country</div>
+                </div>
+              </div>
+            </div>
+            <!-- card -->
+            <div class="card p-5 h-36 w-60 rounded-2xl flex flex-col justify-center items-center gap-4 shadow-lg bg-purple-20 hover:bg-purple-300 hover:border hover:border-blue-500 hover:shadow-none  transition-shadow">
+              <div class="flex flex-row justify-center items-center gap-2">
+                <div class="rounded-full whatsapp"></div>
+                <div class="flex flex-col gap-1">
+                  <div class="title-card-services text-lg font-bold">PTP (Point to Point)</div>
+                  <div class="content-card-services text-sm">Connection through fiber optics</div>
+                </div>
+              </div>
+            </div> 
+         
+            <!-- card -->
+            <div class="card p-5 h-36 w-60 rounded-2xl flex flex-col justify-center items-center gap-4 shadow-lg bg-purple-20 hover:bg-purple-300 hover:border hover:border-blue-500 hover:shadow-none  transition-shadow">
+              <div class="flex flex-row justify-center items-center gap-2">
+                <div class="rounded-full whatsapp"></div>
+                <div class="flex flex-col gap-1">
+                  <div class="title-card-services text-lg font-bold">Dedicated Internet Connection</div>
+                  <div class="content-card-services text-sm">Internet service with full duplex network capacity</div>
+                </div>
+              </div>
+            </div> 
+
+            <!-- card -->
+            <div class="card p-5 h-36 w-60 rounded-2xl flex flex-col justify-center items-center gap-4 shadow-lg bg-purple-20 hover:bg-purple-300 hover:border hover:border-blue-500 hover:shadow-none transition-shadow">
+              <div class="flex flex-row justify-center items-center gap-2">
+                <div class="rounded-full whatsapp"></div>
+                <div class="flex flex-col gap-1">
+                  <div class="title-card-services text-lg font-bold">Home Internet Broadband</div>
+                  <div class="content-card-services text-sm">Relatively efficient scale Internet services for home needs</div>
+                </div>
+              </div>
+            </div> 
+
+            <!-- card -->
+            <div class="card p-5 h-36 w-60 rounded-2xl flex flex-col justify-center items-center gap-4 shadow-lg bg-purple-20 hover:bg-purple-300 hover:border hover:border-blue-500 hover:shadow-none transition-shadow">
+              <div class="flex flex-row justify-center items-center gap-2">
+                <div class="rounded-full whatsapp"></div>
+                <div class="flex flex-col gap-1">
+                  <div class="title-card-services text-lg font-bold">Bussiness Internet Broadband</div>
+                  <div class="content-card-services text-sm">Relatively efficient scale Internet services for business needs from small to large</div>
+                </div>
+              </div>
+            </div> 
+          </div>
+
+        </section>
+        <!-- our services end -->
+
         <!-- price and plan -->
         <section id="price-and-plan" class="p-11 mt-14">
           <div class="title">
@@ -206,7 +301,7 @@
               </div>
             </div>
             <!-- end content price -->
-            
+
             <!-- content price -->
             <div class="content-price p-5 h-full w-64">
               <div class="feature p-4">
@@ -227,7 +322,6 @@
               </div>
             </div>
             <!-- end content price -->
-            
             <!-- content price -->
             <div class="content-price p-5 h-full w-64">
               <div class="feature p-4">
@@ -250,6 +344,20 @@
             <!-- end content price -->
           </div>
         </section>
+        <!-- request quotation -->
+        <section id="request-quotation" class="bg-purple-300">
+          <div class="flex flex-row justify-around w-8/12 items-baseline">
+            <div id="wrapper" class="w-6/12 min-h-56 mx-auto flex justify-center flex-col gap-3">
+              <h3 class="text-2xl">Call us for quotation</h3>
+              <p>Get the best price for each of our product and service offerings, you can also get 1:1 speed access for enterprise services, contact us via voice message to get a faster quote.</p>
+            </div>
+            <div class="button">
+              <button class="h-10 px-5 m-2 transition-colors bg-green-500 rounded-md hover:bg-green-300 hover:border-sky-500"><a href="">Klik me..!</a></button>
+            </div>
+          </div>
+        </section>
+
+
         <!-- portfolio -->
         <section id="portfolio" class="container mt-16 flex flex-col items-center gap-12">
           <div class="title-portfolio text-xl font-bold">
@@ -272,7 +380,7 @@
         <!-- end of portofolio -->
         <!-- footer start -->
         <footer id="footer" class="bg-slate-100 z-50 mt-32">
-          <div class="wrapper h-full w-full p-10 flex flex-col gap-5 md:flex-row justify-between">
+          <div class="wrapper h-72 w-full p-10 flex flex-col gap-5 md:flex-row justify-between">
             <!-- media social -->
               <div class="container-social-media">
                 <span class="whatsapp"></span>
@@ -303,5 +411,7 @@
         <!-- footer end -->
       </main>
   </div>
+
+  
 </body>
 </html>
