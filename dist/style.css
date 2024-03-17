@@ -1,0 +1,75 @@
+.check {
+    border: solid red 1px;
+}
+.check-circle::before {
+    background: url(../dist/assets/svg/🦆\ icon\ _Check\ Circle_.svg) 0 0 no-repeat;
+    background-size: 13px;
+    content: '';
+    padding: 0 0 0 28px;
+    position: relative;
+    top: 3px;
+}
+.times-circle::before {
+    background: url(/dist/assets/svg/🦆\ icon\ _Times\ Circle_.svg) 0 0 no-repeat;
+    background-size: 13px;
+    content: '';
+    padding: 0 0 0 28px;
+    position: relative;
+    top: 3px;
+}
+.whatsapp::before {
+    background: url(whatsapp.svg) 0 0 no-repeat;
+    background-size: 20px;
+    content: '';
+    padding: 0 0 0 28px;
+    position: relative;
+    top: 3px;
+}
+.instagram::before {
+    background: url(/dist/assets/svg/instagram-1-svgrepo-com.svg) 0 0 no-repeat;
+    background-size: 20px;
+    content: '';
+    padding: 0 0 0 28px;
+    position: relative;
+    top: 3px;
+}
+.twitter::before {
+    background: url(/dist/assets/svg/twitter-color-svgrepo-com.svg) 0 0 no-repeat;
+    background-size: 20px;
+    content: '';
+    padding: 0 0 0 28px;
+    position: relative;
+    top: 3px;
+}
+.linkedin::before {
+    background: url(/dist/assets/svg/linkedin-svgrepo-com.svg) 0 0 no-repeat;
+    background-size: 20px;
+    content: '';
+    padding: 0 0 0 28px;
+    position: relative;
+    top: 3px;
+}
+.facebook::before {
+    background: url(/dist/assets/svg/facebook-color-svgrepo-com.svg) 0 0 no-repeat;
+    background-size: 20px;
+    content: '';
+    padding: 0 0 0 28px;
+    position: relative;
+    top: 3px;
+}
+.hamburger::before {
+    background: url(/dist/assets/svg/hamburger-menu-svgrepo-com.svg) 0 0 no-repeat;
+    background-size: 30px;
+    content: '';
+    padding: 0 0 0 10px;
+    position: relative;
+    top: 3px;
+}
+.bussiness::before {
+    background: url(/dist/assets/svg/agreement.svg) 0 0 no-repeat;
+    background-size: 30px;
+    content: '';
+    padding: 0 0 0 10px;
+    position: relative;
+    top: 3px;
+}

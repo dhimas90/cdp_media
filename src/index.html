@@ -15,80 +15,86 @@
   <script>
     AOS.init();
   </script>
-
   <style>
     .check {
       border: solid red 1px;
-    }
-    .check-circle::before {
-      background: url(/src/img/🦆\ icon\ _Check\ Circle_.svg) 0 0 no-repeat;
+  }
+  .check-circle::before {
+      background: url(../dist/assets/svg/🦆\ icon\ _Check\ Circle_.svg) 0 0 no-repeat;
       background-size: 13px;
       content: '';
       padding: 0 0 0 28px;
       position: relative;
       top: 3px;
-    }
-    .times-circle::before {
-      background: url(/src/img/🦆\ icon\ _Times\ Circle_.svg) 0 0 no-repeat;
+  }
+  .times-circle::before {
+      background: url(/dist/assets/svg/🦆\ icon\ _Times\ Circle_.svg) 0 0 no-repeat;
       background-size: 13px;
       content: '';
       padding: 0 0 0 28px;
       position: relative;
       top: 3px;
-    }
-    .whatsapp::before {
-      background: url(/src/img/whatsapp-color-svgrepo-com.svg) 0 0 no-repeat;
+  }
+  .whatsapp::before {
+      background: url(/dist/assets/svg/whatsapp-color-svgrepo-com.svg) 0 0 no-repeat;
       background-size: 20px;
       content: '';
       padding: 0 0 0 28px;
       position: relative;
       top: 3px;
-    }
-    .instagram::before {
-      background: url(/src/img/instagram-1-svgrepo-com.svg) 0 0 no-repeat;
+  }
+  .instagram::before {
+      background: url(/dist/assets/svg/instagram-1-svgrepo-com.svg) 0 0 no-repeat;
       background-size: 20px;
       content: '';
       padding: 0 0 0 28px;
       position: relative;
       top: 3px;
-    }
-    .twitter::before {
-      background: url(/src/img/twitter-color-svgrepo-com.svg) 0 0 no-repeat;
+  }
+  .twitter::before {
+      background: url(/dist/assets/svg/twitter-color-svgrepo-com.svg) 0 0 no-repeat;
       background-size: 20px;
       content: '';
       padding: 0 0 0 28px;
       position: relative;
       top: 3px;
-    }
-    .linkedin::before {
-      background: url(/src/img/linkedin-svgrepo-com.svg) 0 0 no-repeat;
+  }
+  .linkedin::before {
+      background: url(/dist/assets/svg/linkedin-svgrepo-com.svg) 0 0 no-repeat;
       background-size: 20px;
       content: '';
       padding: 0 0 0 28px;
       position: relative;
       top: 3px;
-    }
-    .facebook::before {
-      background: url(/src/img/facebook-color-svgrepo-com.svg) 0 0 no-repeat;
+  }
+  .facebook::before {
+      background: url(/dist/assets/svg/facebook-color-svgrepo-com.svg) 0 0 no-repeat;
       background-size: 20px;
       content: '';
       padding: 0 0 0 28px;
       position: relative;
       top: 3px;
-    }
-    .hamburger::before {
-      background: url(/src/img/facebook-color-svgrepo-com.svg) 0 0 no-repeat;
+  }
+  .hamburger::before {
+      background: url(/dist/assets/svg/hamburger-menu-svgrepo-com.svg) 0 0 no-repeat;
       background-size: 30px;
       content: '';
       padding: 0 0 0 10px;
       position: relative;
       top: 3px;
-    }
-    
+  }
+  .bussiness::before {
+      background: url(/dist/assets/svg/agreement.svg) 0 0 no-repeat;
+      background-size: 30px;
+      content: '';
+      padding: 0 0 0 10px;
+      position: relative;
+      top: 3px;
+  }
   </style>
 </head>
 <body>
-  <div id="wrapper" class="mx-auto" data-aos="fade-down">
+  <div id="wrapper" class="mx-auto" data-aos="fade-down check">
     <header class= "container w-full">
       <nav class="p-7 px-3 flex justify-between
       lg:pt-10 lg:px-16 lg:flex lg:justify-between">
@@ -149,7 +155,7 @@
               <div class="card p-3 w-40 h-40 rounded-lg bg-transparent border hover:border-purple-400 shadow flex flex-col items-center gap-2">
                 <!-- photos  -->
                 <div class="frame-img-services h-24 w-24 rounded-md flex justify-center items-center">
-                  <img class="relative block" src="img/🦆 icon _Alternate Tachometer_.svg" alt="none">
+                  <img class="relative block" src="../dist/assets/svg/🦆 icon _Alternate Tachometer_.svg" alt="none">
                 </div>
                 <!-- text -->
                 <div class="frame-text-services">
@@ -160,7 +166,7 @@
               <div class="card p-3 w-40 h-40 rounded-lg bg-transparent border hover:border-green-400 shadow flex flex-col items-center gap-2">
                 <!-- photos  -->
                 <div class="frame-img-services h-24 w-24 rounded-md flex justify-center items-center">
-                  <img class="relative block" src="img/🦆 icon _Alternate Shield_.svg" alt="none">
+                  <img class="relative block" src="../dist/assets/svg/🦆 icon _Alternate Shield_.svg" alt="none">
                 </div>
                 <!-- text -->
                 <div class="frame-text-services">
@@ -171,7 +177,7 @@
               <div class="card p-3 w-40 h-40 rounded-lg bg-transparent border hover:border-blue-400 shadow flex flex-col items-center gap-2">
                 <!-- photos  -->
                 <div class="frame-img-services  h-24 w-24 rounded-md flex justify-center items-center">
-                  <img class="relative block" src="img/speed.svg" alt="none">
+                  <img class="relative block" src="../dist/assets/svg/speed.svg" alt="none">
                 </div>
                 <!-- text -->
                 <div class="frame-text-services">
@@ -271,8 +277,8 @@
             </div> 
           </div>
 
+          <!-- our services end -->
         </section>
-        <!-- our services end -->
 
         <!-- price and plan -->
         <section id="price-and-plan" class="p-11 mt-14">
@@ -346,18 +352,16 @@
         </section>
         <!-- request quotation -->
         <section id="request-quotation" class="bg-purple-300">
-          <div class="flex flex-row justify-around w-8/12 items-baseline">
-            <div id="wrapper" class="w-6/12 min-h-56 mx-auto flex justify-center flex-col gap-3">
+          <div class="flex flex-row justify-between w-8/12 items-center mx-auto">
+            <div id="wrapper" class="w-6/12 min-h-56 mx-auto flex justify-center flex-col">
               <h3 class="text-2xl">Call us for quotation</h3>
               <p>Get the best price for each of our product and service offerings, you can also get 1:1 speed access for enterprise services, contact us via voice message to get a faster quote.</p>
             </div>
-            <div class="button">
-              <button class="h-10 px-5 m-2 transition-colors bg-green-500 rounded-md hover:bg-green-300 hover:border-sky-500"><a href="">Klik me..!</a></button>
+            <div class="button w-2/12">
+              <button class="h-10 px-5 m-2 transition-colors bg-green-500 rounded-md hover:bg-green-300 hover:border-sky-500"><a href="">Klick me..!</a></button>
             </div>
           </div>
         </section>
-
-
         <!-- portfolio -->
         <section id="portfolio" class="container mt-16 flex flex-col items-center gap-12">
           <div class="title-portfolio text-xl font-bold">
@@ -389,16 +393,14 @@
                 <span class="twitter"></span>
                 <span class="facebook"></span>
               </div>
-
             <!-- address -->
             <div class="address-footer">
+              <h3>CDP DATA PRIMA</h3>
               <p>Location</p>
               <p>Margosari, Limbangan, Central Java, Indonesia</p>
               <p>cdpmedia@cdpisp.com</p>
               <p>+62 8900878 7777</p>
-              
             </div>
-
             <!-- services hastag -->
             <ul>
               <li><a href="">Internet Service Provider</a></li>
@@ -411,7 +413,5 @@
         <!-- footer end -->
       </main>
   </div>
-
-  
 </body>
 </html>

@@ -1,8 +1,20 @@
 {
   "devDependencies": {
+    "prettier-plugin-tailwindcss": "^0.5.12",
     "tailwindcss": "^3.4.1"
   },
   "dependencies": {
     "aos": "^2.3.4"
-  }
+  },
+  "name": "cdpmedia",
+  "description": "",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "prettier" : "npx prettier --write './src/*.html'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
