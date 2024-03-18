@@ -83,13 +83,29 @@
       position: relative;
       top: 3px;
   }
-  .bussiness::before {
-      background: url(/dist/assets/svg/agreement.svg) 0 0 no-repeat;
+  .arrow::before {
+      background: url(/dist/assets/svg/right-arrow-backup-2-svgrepo-com.svg) 0 0 no-repeat;
       background-size: 30px;
       content: '';
       padding: 0 0 0 10px;
       position: relative;
       top: 3px;
+  }
+  .agreement::before{
+    background: url(/dist/assets/svg/agreement.svg) 0 0 no-repeat;
+    background-size: 60px;
+    content: '';
+    padding: 0 0 0 10px;
+    position: relative;
+    top: 3px;
+  }
+  .fttx::before{
+    background: url(/dist/assets/svg/Networking\ computer.svg) 0 0 no-repeat;
+    background-size: 15px;
+    content: '';
+    padding: 0 0 0 10px;
+    position: relative;
+    top: 3px;
   }
   </style>
 </head>
@@ -148,10 +164,10 @@
       <!-- services -->
         <section id="services" class="mt-20" data-aos="fade-up">
           <!-- wrapper -->
-          <div class="wrapper flex flex-col md:flex-row gap-4 justify-center items-center">
+          <div class="wrapper flex flex-col md:flex-row gap-5 md:justify-around items-center w-8/12 mx-auto">
             <!-- box wrapper -->
-            <div class="services-box p-5 flex flex-col gap-4 lg:ml-56">
-              <!-- box -->
+            <div class="services-box p-5 flex flex-col gap-4 lg:ml-56 md:w-2/12">
+           <!-- box -->
               <div class="card p-3 w-40 h-40 rounded-lg bg-transparent border hover:border-purple-400 shadow flex flex-col items-center gap-2">
                 <!-- photos  -->
                 <div class="frame-img-services h-24 w-24 rounded-md flex justify-center items-center">
@@ -185,7 +201,7 @@
                 </div>
               </div>
             </div>
-            <div class="services-content p-9 md:max-h-56 md:max-w-96 ">
+            <div class="services-content md:w-6/12">
               <p>We operate in the Internet Service Provider sector, starting with distributing bandwidth for business and expanding to bandwidth for metro level coverage. This technological innovation enables communication networks via the internet in an intercity scope. Collaborating with the world's leading internet service providers to focus services on local services. We will always try to improve our services to be able to provide solutions to the scope of your problems in the field of internet coverage.</p>
             </div>
           </div>
@@ -197,87 +213,30 @@
           <!-- title -->
           <div class="product-service-title text-2xl font-semibold text-center">Product and Services</div>
           <!-- content -->
-          <div class="product-and-services-content my-8 ">
+          <div class="product-and-services-content w-7/12 mx-auto mt-4">
             <p>We categorize the products and services that we offer you into several options that you can adjust to your needs and make your work more effective and efficient.</p>
           </div>
           <!-- services box -->
-          <div id="box-services" class="w-8/12 mx-auto grid lg:grid-cols-3 gap-3 mt-4">
-            <!-- card -->
-            <div class="card p-5 h-36 w-60 rounded-2xl flex flex-col justify-center items-center gap-4 shadow-lg bg-purple-20 hover:bg-purple-300 hover:border hover:border-blue-500 hover:shadow-none  transition-shadow  ">
-              <div class="flex flex-row justify-center items-center gap-2">
-                <div class="rounded-full whatsapp"></div>
-                <div class="flex flex-col gap-1">
-                  <div class="title-card-services text-lg font-bold">FTTX Broadband</div>
-                  <div class="content-card-services text-sm">Access network to customers with Fiber Optic with 1:1 bandwidth</div>
-                </div>
+          <div class="product-card gap-3 w-6/12 grid mx-auto py-10">
+            <!-- isine -->
+            <div class="card w-full h-48 shadow-xl rounded-lg border border-violet-300 flex flex-row">
+              <div class="photos overflow-hidden shadow-md object-cover"><img src="https://source.unsplash.com/random/?logos&30" alt=""></span></div>
+              <div class="flex flex-col w-full p-4">
+                <div class="titlecard font-semibold text-2xl">FTTX Broadband</div>
+                <div class="contentcard p-1 font-thin">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</div>
               </div>
             </div>
-            <!-- card -->
-            <div class="card p-5 h-36 w-60 rounded-2xl flex flex-col justify-center items-center gap-4 shadow-lg bg-purple-20 hover:bg-purple-300 hover:border hover:border-blue-500 hover:shadow-none  transition-shadow  ">
-              <div class="flex flex-row justify-center items-center gap-2">
-                <div class="rounded-full whatsapp"></div>
-                <div class="flex flex-col gap-1">
-                  <div class="title-card-services text-lg font-bold">FTTX Dedication</div>
-                  <div class="content-card-services text-sm">Connection through fiber optics</div>
-                </div>
+            <!-- isine iki -->
+            <!-- isine -->
+            <div class="card w-full h-48 rounded-lg border border-violet-300 flex flex-row">
+              <div class="photos overflow-hidden shadow-md object-cover"><img src="https://source.unsplash.com/random/?logos&30" alt=""></span></div>
+              <div class="flex flex-col w-full p-4">
+                <div class="titlecard font-semibold text-2xl">FTTX Broadband</div>
+                <div class="contentcard p-1 font-thin">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</div>
               </div>
             </div>
-            <!-- card -->
-            <div class="card p-5 h-36 w-60 rounded-2xl flex flex-col justify-center items-center gap-4 shadow-lg bg-purple-20 hover:bg-purple-300 hover:border hover:border-blue-500 hover:shadow-none  transition-shadow  ">
-              <div class="flex flex-row justify-center items-center gap-2">
-                <div class="rounded-full whatsapp"></div>
-                <div class="flex flex-col gap-1">
-                  <div class="title-card-services text-lg font-bold">Intercity</div>
-                  <div class="content-card-services text-sm">A network that covers cities within a country</div>
-                </div>
-              </div>
-            </div>
-            <!-- card -->
-            <div class="card p-5 h-36 w-60 rounded-2xl flex flex-col justify-center items-center gap-4 shadow-lg bg-purple-20 hover:bg-purple-300 hover:border hover:border-blue-500 hover:shadow-none  transition-shadow">
-              <div class="flex flex-row justify-center items-center gap-2">
-                <div class="rounded-full whatsapp"></div>
-                <div class="flex flex-col gap-1">
-                  <div class="title-card-services text-lg font-bold">PTP (Point to Point)</div>
-                  <div class="content-card-services text-sm">Connection through fiber optics</div>
-                </div>
-              </div>
-            </div> 
-         
-            <!-- card -->
-            <div class="card p-5 h-36 w-60 rounded-2xl flex flex-col justify-center items-center gap-4 shadow-lg bg-purple-20 hover:bg-purple-300 hover:border hover:border-blue-500 hover:shadow-none  transition-shadow">
-              <div class="flex flex-row justify-center items-center gap-2">
-                <div class="rounded-full whatsapp"></div>
-                <div class="flex flex-col gap-1">
-                  <div class="title-card-services text-lg font-bold">Dedicated Internet Connection</div>
-                  <div class="content-card-services text-sm">Internet service with full duplex network capacity</div>
-                </div>
-              </div>
-            </div> 
-
-            <!-- card -->
-            <div class="card p-5 h-36 w-60 rounded-2xl flex flex-col justify-center items-center gap-4 shadow-lg bg-purple-20 hover:bg-purple-300 hover:border hover:border-blue-500 hover:shadow-none transition-shadow">
-              <div class="flex flex-row justify-center items-center gap-2">
-                <div class="rounded-full whatsapp"></div>
-                <div class="flex flex-col gap-1">
-                  <div class="title-card-services text-lg font-bold">Home Internet Broadband</div>
-                  <div class="content-card-services text-sm">Relatively efficient scale Internet services for home needs</div>
-                </div>
-              </div>
-            </div> 
-
-            <!-- card -->
-            <div class="card p-5 h-36 w-60 rounded-2xl flex flex-col justify-center items-center gap-4 shadow-lg bg-purple-20 hover:bg-purple-300 hover:border hover:border-blue-500 hover:shadow-none transition-shadow">
-              <div class="flex flex-row justify-center items-center gap-2">
-                <div class="rounded-full whatsapp"></div>
-                <div class="flex flex-col gap-1">
-                  <div class="title-card-services text-lg font-bold">Bussiness Internet Broadband</div>
-                  <div class="content-card-services text-sm">Relatively efficient scale Internet services for business needs from small to large</div>
-                </div>
-              </div>
-            </div> 
+            <!-- isine iki -->
           </div>
-
-          <!-- our services end -->
         </section>
 
         <!-- price and plan -->
@@ -351,16 +310,20 @@
           </div>
         </section>
         <!-- request quotation -->
-        <section id="request-quotation" class="bg-purple-300">
-          <div class="flex flex-row justify-between w-8/12 items-center mx-auto">
-            <div id="wrapper" class="w-6/12 min-h-56 mx-auto flex justify-center flex-col">
-              <h3 class="text-2xl">Call us for quotation</h3>
-              <p>Get the best price for each of our product and service offerings, you can also get 1:1 speed access for enterprise services, contact us via voice message to get a faster quote.</p>
+        <section id="request-quotation" class="bg-slate-600">
+          
+            <!-- content -->
+            <div class="flex flex-row justify-between w-8/12 items-center mx-auto">
+              <div id="wrapper" class="w-6/12 min-h-56 mx-auto flex justify-center flex-col text-slate-300">
+                <h3 class="text-2xl">Call us for quotation</h3>
+                <p>Get the best price for each of our product and service offerings, you can also get 1:1 speed access for enterprise services, contact us via voice message to get a faster quote.</p>
+              </div>
+              <div class="button w-2/12">
+                <button class="ext-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700 text-slate-300"><a href="">Klick me..!</a></button>
+              </div>
             </div>
-            <div class="button w-2/12">
-              <button class="h-10 px-5 m-2 transition-colors bg-green-500 rounded-md hover:bg-green-300 hover:border-sky-500"><a href="">Klick me..!</a></button>
-            </div>
-          </div>
+            <!-- content -->
+          
         </section>
         <!-- portfolio -->
         <section id="portfolio" class="container mt-16 flex flex-col items-center gap-12">
@@ -383,7 +346,7 @@
         </section>
         <!-- end of portofolio -->
         <!-- footer start -->
-        <footer id="footer" class="bg-slate-100 z-50 mt-32">
+        <footer id="footer" class="bg-slate-100 z-50 mt-32 leading-18">
           <div class="wrapper h-72 w-full p-10 flex flex-col gap-5 md:flex-row justify-between">
             <!-- media social -->
               <div class="container-social-media">
@@ -403,9 +366,9 @@
             </div>
             <!-- services hastag -->
             <ul>
-              <li><a href="">Internet Service Provider</a></li>
-              <li><a href="">Networking Maintenance</a></li>
-              <li><a href="">Software Developer</a></li>
+              <li><span class="arrow"></span><a href="">Internet Service Provider</a></li>
+              <li><span class="arrow"></span><a href="">Networking Maintenance</a></li>
+              <li><span class="arrow"></span><a href="">Software Developer</a></li>
             </ul>
             
           </div>
