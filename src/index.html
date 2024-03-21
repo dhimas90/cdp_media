@@ -85,7 +85,7 @@
   }
   .arrow::before {
       background: url(/dist/assets/svg/right-arrow-backup-2-svgrepo-com.svg) 0 0 no-repeat;
-      background-size: 30px;
+      background-size: 130x;
       content: '';
       padding: 0 0 0 10px;
       position: relative;
@@ -217,22 +217,48 @@
             <p>We categorize the products and services that we offer you into several options that you can adjust to your needs and make your work more effective and efficient.</p>
           </div>
           <!-- services box -->
-          <div class="product-card gap-3 w-6/12 grid mx-auto py-10">
+          <div class="product-card gap-3 w-11/12 md:w-6/12 grid mx-auto py-10">
             <!-- isine -->
             <div class="card w-full h-48 shadow-xl rounded-lg border border-violet-300 flex flex-row">
               <div class="photos overflow-hidden shadow-md object-cover"><img src="https://source.unsplash.com/random/?logos&30" alt=""></span></div>
               <div class="flex flex-col w-full p-4">
-                <div class="titlecard font-semibold text-2xl">FTTX Broadband</div>
-                <div class="contentcard p-1 font-thin">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</div>
+                <div class="titlecard font-semibold md:text-2xl text-xl">FTTX Dedicated</div>
+                <div class=" sm:overflow-visible contentcard p-1 font-thin text-sm md:text-sm">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</div>
               </div>
             </div>
             <!-- isine iki -->
             <!-- isine -->
             <div class="card w-full h-48 rounded-lg border border-violet-300 flex flex-row">
-              <div class="photos overflow-hidden shadow-md object-cover"><img src="https://source.unsplash.com/random/?logos&30" alt=""></span></div>
+              <div class="photos overflow-hidden shadow-md object-cover"><img src="https://source.unsplash.com/random/?logos&31" alt=""></span></div>
               <div class="flex flex-col w-full p-4">
-                <div class="titlecard font-semibold text-2xl">FTTX Broadband</div>
-                <div class="contentcard p-1 font-thin">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</div>
+                <div class="titlecard font-semibold md:text-2xl text-xl">FTTX Broadband</div>
+                <div class="contentcard p-1 font-thin text-sm">1:1 Networking architecture with Fiber Optics</div>
+              </div>
+            </div>
+            <!-- isine iki -->
+            <!-- isine -->
+            <div class="card w-full h-48 rounded-lg border border-violet-300 flex flex-row">
+              <div class="photos overflow-hidden shadow-md object-cover"><img src="https://source.unsplash.com/random/?logos&32" alt=""></span></div>
+              <div class="flex flex-col w-full p-4">
+                <div class="titlecard font-semibold md:text-2xl text-xl">Intercty</div>
+                <div class=" sm:overflow-visible contentcard p-1 font-thin text-sm">A network that covers cities within a country</div>
+              </div>
+            </div>
+            <!-- isine -->
+            <div class="card w-full h-48 rounded-lg border border-violet-300 flex flex-row">
+              <div class="photos overflow-hidden shadow-md object-cover"><img src="https://source.unsplash.com/random/?logos&33" alt=""></span></div>
+              <div class="flex flex-col w-full p-4">
+                <div class="titlecard font-semibold md:text-2xl text-xl">PTP (Point to Point)</div>
+                <div class=" sm:overflow-visible contentcard p-1 font-thin text-sm">Connection through fiber optics</div>
+              </div>
+            </div>
+            <!-- isine iki -->
+            <!-- isine -->
+            <div class="card w-full h-48 rounded-lg border border-violet-300 flex flex-row">
+              <div class="photos overflow-hidden shadow-md object-cover"><img src="https://source.unsplash.com/random/?logos&34" alt=""></span></div>
+              <div class="flex flex-col w-full p-4">
+                <div class="titlecard font-semibold md:text-2xl text-xl">Dedicated Internet Connection</div>
+                <div class=" sm:overflow-visible contentcard p-1 font-thin text-sm">Internet service with full duplex network capacity</div>
               </div>
             </div>
             <!-- isine iki -->
@@ -310,16 +336,15 @@
           </div>
         </section>
         <!-- request quotation -->
-        <section id="request-quotation" class="bg-slate-600">
-          
+        <section id="request-quotation" class="w-full min-h-[300px] bg-slate-600 flex items-center">
             <!-- content -->
-            <div class="flex flex-row justify-between w-8/12 items-center mx-auto">
-              <div id="wrapper" class="w-6/12 min-h-56 mx-auto flex justify-center flex-col text-slate-300">
-                <h3 class="text-2xl">Call us for quotation</h3>
-                <p>Get the best price for each of our product and service offerings, you can also get 1:1 speed access for enterprise services, contact us via voice message to get a faster quote.</p>
+            <div class="w-10/12 h-full mx-auto flex flex-col gap-6 md:gap-0 md:flex-row justify-around items-center">
+              <div id="wrapper" class="w-10/12 md:w-7/12 ">
+                <h3 class="text-xl">Call us for quotation</h3>
+                <p class="text-sm">Get the best price for each of our product and service offerings, you can also get 1:1 speed access for enterprise services, contact us via voice message to get a faster quote.</p>
               </div>
-              <div class="button w-2/12">
-                <button class="ext-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700 text-slate-300"><a href="">Klick me..!</a></button>
+              <div class="">
+                <button class="w-32 rounded-md h-8 bg-purple-600 hover:bg-purple-400 transition-colors"><a href="" class="text-sm">Klick me..!</a></button>
               </div>
             </div>
             <!-- content -->
@@ -347,7 +372,7 @@
         <!-- end of portofolio -->
         <!-- footer start -->
         <footer id="footer" class="bg-slate-100 z-50 mt-32 leading-18">
-          <div class="wrapper h-72 w-full p-10 flex flex-col gap-5 md:flex-row justify-between">
+          <div class="wrapper h-44 w-full p-10 flex flex-col gap-5 md:flex-row justify-between">
             <!-- media social -->
               <div class="container-social-media">
                 <span class="whatsapp"></span>
@@ -370,7 +395,10 @@
               <li><span class="arrow"></span><a href="">Networking Maintenance</a></li>
               <li><span class="arrow"></span><a href="">Software Developer</a></li>
             </ul>
-            
+          </div>
+          <div class="flex flex-col md:flex-row justify-between items-center px-10 py-3">
+            <div class=" copyright bottom-0 font-thin"><span class="">copyright </span>Comnet99 Data Prima. All Right Reserved</div>
+            <div class="designed">Design By Octodev90</div>
           </div>
         </footer>
         <!-- footer end -->
